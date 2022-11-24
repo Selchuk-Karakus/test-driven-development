@@ -1,4 +1,4 @@
-const { sum, subtract, multiply, divide } = require("./example");
+import { sum, subtract, multiply, divide } from "./example";
 
 describe("additive functions", () => {
   test("adds numbers correctly", () => {
