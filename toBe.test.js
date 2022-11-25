@@ -1,4 +1,4 @@
-import { sum, subtract, multiply, divide } from "./example";
+import { sum, subtract, multiply, divide } from "./toBe";
 
 describe("additive functions", () => {
   test("adds numbers correctly", () => {
