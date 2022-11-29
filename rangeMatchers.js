@@ -7,3 +7,8 @@ export const greaterThanOrEqual = (word) => {
   let wordLength = word.length;
   return wordLength;
 };
+
+export const toBeClose = (numFirst, numSecond) => {
+  let total = numFirst + numSecond;
+  return total;
+};
