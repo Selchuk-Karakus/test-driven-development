@@ -5,3 +5,7 @@ export const getVowels = (str) => {
   }
   return message.length;
 };
+
+export const isItDefined = (obj) => {
+  return obj.name ? obj.name : undefined;
+};
