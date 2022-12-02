@@ -9,3 +9,8 @@ export const getVowels = (str) => {
 export const isItDefined = (obj) => {
   return obj.name ? obj.name : undefined;
 };
+
+export const isANumber = (num) => {
+  let isNumOrNot = Math.sqrt(num);
+  return isNumOrNot;
+}
