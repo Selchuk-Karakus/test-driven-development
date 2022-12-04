@@ -1,4 +1,4 @@
-import { compares, country1, country2, welcomeTo, carDesired, carOnSale } from "./standardMatchers";
+import { compares, country1, country2, welcomeTo, carDesired, carOnSale, isTruthy} from "./standardMatchers";
 
 describe("matchers for equality", () => {
   test("toBe() compares using ===", () => {
@@ -24,3 +24,9 @@ describe("matchers for equality", () => {
     expect(carOnSale).toMatchObject(carDesired)
   })
 });
+
+describe("matchers for truth or falsehood", () => {
+  test("toBeTruthy() tests for a truthy value", () => {
+    expect(isTruthy({})).toBeTruthy()
+  })
+})
