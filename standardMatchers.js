@@ -28,4 +28,12 @@ export const carDesired = {
   model: "CX30"
 }
 
+export const isTruthy = (value) => {
+  if(value) {
+    return true
+  } else {
+    return false
+  }
+}
+
 
